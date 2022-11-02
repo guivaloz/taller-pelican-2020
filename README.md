@@ -3,6 +3,7 @@
 Por Ing. Guillermo Valdés Lozano
 
 # Instrucciones Para GNU / Linux
+___
 ## Instale un entorno virtual
 
     $ cd ~/Escritorio
@@ -24,20 +25,23 @@ Revise los paquetes instalados con...
 
 
 # Instrucciones para Windows 10
+___
+## Descargar e Instalar PYTHON 3+
 
-[Descargar Python de su Pagina Oficial](https://www.python.org/downloads/)
+[Pagina Oficial Python](https://www.python.org/downloads/)
 
 ## Instalar las Herramientas del Entorno Virtual
 1. Revisar que se cuente con la herramienta PIP
+        
         pip --version
 
-2. Instalar Virtualenv con
+2. Instalar Virtualenv con pip utilizando el siguiente comando:
+        
         pip install virtualenv
 
-3. Verificar la version de Virtualenv
-        virtualenv --version
+3. Verificar la version de Virtualenv con el siguiente comando: 
         
-Tener Instalado Python 3+
+        virtualenv --version
 
 ## Instalar un entorno virutual
 
