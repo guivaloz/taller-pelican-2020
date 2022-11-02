@@ -31,17 +31,24 @@ ___
 [Pagina Oficial Python](https://www.python.org/downloads/)
 
 ## Instalar las Herramientas del Entorno Virtual
-1. Revisar que se cuente con la herramienta PIP
-        
-        pip --version
+### 1. Revisar que se cuente con la herramienta PIP
 
-2. Instalar Virtualenv con pip utilizando el siguiente comando:
-        
-        pip install virtualenv
+    pip --version
 
-3. Verificar la version de Virtualenv con el siguiente comando: 
-        
-        virtualenv --version
+### 2. Instalar Virtualenv con
+    
+    pip install virtualenv
 
-## Instalar un entorno virutual
+### 3. Verificar la version de Virtualenv
+    
+    virtualenv --version
+
+## Crear el Entorno virutual
+###
+    C:\> md Pelican
+    C:\> cd Pelican
+    C:\Pelican> python -m venv venv
+    C:\>  .\venv\Scripts\activate.bat
+    C:\> cls
+    C:\> 
 
