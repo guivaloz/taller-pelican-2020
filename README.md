@@ -44,7 +44,7 @@ ___
     virtualenv --version
 
 ## Crear el Entorno virutual
-###
+
     C:\> md Pelican
     C:\> cd Pelican
     C:\Pelican> python -m venv venv
